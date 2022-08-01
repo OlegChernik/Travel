@@ -173,7 +173,7 @@
 /*=PAGE==========================================================================*/
 
 .page {
-    padding: 15rem 0 0 0;
+    padding: 10rem 0 0 0;
 }
 
 /*=EXCURSION==========================================================================*/
@@ -192,7 +192,7 @@
 
 .excursions-box {
     max-width: 1120px;
-    margin-bottom: 90px;
+    margin-bottom: 25px;
 
     display: flex;
     justify-content: space-between;
@@ -233,10 +233,9 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-   
+
     &:last-child {
-        margin-right:-190px ;
-        
+        margin-right:-190px;
     }
 } 
 
@@ -248,20 +247,19 @@
   
 
     &__subtitle {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         color: $colorWhiteTwo;  
         margin-bottom: 2px;
     }
 
     &__title {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 700;
         color: $colorYellow;
         margin-bottom: 10px;
     }
     &__time {
-    
         font-size: 12px;
         font-weight: 500;
         color: $colorWhiteTwo; 
@@ -282,15 +280,17 @@
         .times-numer {
             color: $colorWhite;
             font-size: 12px;
+            margin-left:2px;
         }
         .prices-numer {
             color: $colorWhite;
             font-size: 12px;
             line-height: 12px;
+            margin-left:2px;
         }
     }
     &__discriptions {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 14.63px;
         font-weight: 500;
         color: $colorWhiteTwo; 
@@ -333,7 +333,7 @@
 
 .aboutUs{
     @extend %page;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 
     &__content {
         max-width: 1071px;
@@ -348,7 +348,7 @@
         background: rgba(237, 237, 237, 1);
         margin-top: 137px;
         margin-bottom: 136px;
-        padding: 61px 75px 105px 85px;
+        padding: 61px 75px 80px 85px;
         border-radius: 10px;
         margin-right: -210px;
         
@@ -362,7 +362,7 @@
         &__text {
             color: $colorBlack;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 15px;
             margin-bottom: 1.2rem
         }
     }
@@ -372,7 +372,7 @@
 
 .type-excursions {
     @extend %container;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .type {
@@ -381,13 +381,13 @@
         color: $colorBlue;
         font-size: 24px;
         font-weight: 700;
-        margin-bottom: 5.5rem;
+        margin-bottom: 4rem;
     }
 
     &__cards{
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
     &__button{
@@ -402,7 +402,7 @@
             color: $colorBlack;
             font-size: 14px;
             font-weight: 500;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1.5rem;
         }
 
         .btn{
@@ -447,6 +447,7 @@
     padding: 0 1rem;
     &__title {
         @extend %container;
+        margin-bottom: 4rem;
     }
     &__grid {
         display: grid;
@@ -522,7 +523,10 @@
     @extend %page;
     margin-bottom: 5rem;
     &__title {
-        @extend %container;
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 25px;
+        margin-bottom: 4rem
     }
 
 .content-swip {
@@ -667,6 +671,14 @@
     }
     &__text li{
         margin-bottom:8px;
+        a {
+            color: $colorBlack;
+            transition: all .5s;
+            
+            &:hover {
+                color: rgba(215, 174, 26, 1);
+            }
+        }
     }
     
     &__cont {
@@ -710,6 +722,7 @@
 
     }
 }
+
 
 /*= LIST = EXCURSION ===================================================================================*/
 
@@ -1169,7 +1182,7 @@ span {
    display: flex;
    justify-content:center;
    margin-top: 200px;
-   margin-bottom: 80px;
+   margin-bottom: 30px;
 
     &__list {
         margin-left: 500px;

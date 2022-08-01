@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-.aboutTours, .selectionTours, .headerExcursion__title, .headerExcursion__top, .footer__content, .questions__content, .reviews__title, .gallery__title, .type-excursions, .header__body, .header__top {
+.aboutTours, .selectionTours, .headerExcursion__title, .headerExcursion__top, .footer__content, .questions__content, .gallery__title, .type-excursions, .header__body, .header__top {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
@@ -229,7 +229,7 @@ input, button {
 
 /*=PAGE==========================================================================*/
 .page {
-  padding: 15rem 0 0 0;
+  padding: 10rem 0 0 0;
 }
 
 /*=EXCURSION==========================================================================*/
@@ -244,7 +244,7 @@ input, button {
 
 .excursions-box {
   max-width: 1120px;
-  margin-bottom: 90px;
+  margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -295,13 +295,13 @@ input, button {
   padding-right: 16px;
 }
 .excursion-one__subtitle {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 2px;
 }
 .excursion-one__title {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   color: rgb(255, 199, 0);
   margin-bottom: 10px;
@@ -327,14 +327,16 @@ input, button {
 .excursion-one__time .times-numer {
   color: rgb(255, 255, 255);
   font-size: 12px;
+  margin-left: 2px;
 }
 .excursion-one__time .prices-numer {
   color: rgb(255, 255, 255);
   font-size: 12px;
   line-height: 12px;
+  margin-left: 2px;
 }
 .excursion-one__discriptions {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 14.63px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
@@ -374,7 +376,7 @@ input, button {
 
 /*=ABOUT US==========================================================================*/
 .aboutUs {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 .aboutUs__content {
   max-width: 1071px;
@@ -387,7 +389,7 @@ input, button {
   background: rgb(237, 237, 237);
   margin-top: 137px;
   margin-bottom: 136px;
-  padding: 61px 75px 105px 85px;
+  padding: 61px 75px 80px 85px;
   border-radius: 10px;
   margin-right: -210px;
 }
@@ -400,25 +402,25 @@ input, button {
 .aboutUs .info__text {
   color: rgb(40, 40, 40);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 1.2rem;
 }
 
 /*=TYPE EXCURSION==========================================================================*/
 .type-excursions {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .type__title {
   color: rgb(4, 153, 221);
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 5.5rem;
+  margin-bottom: 4rem;
 }
 .type__cards {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .type__button {
   display: flex;
@@ -432,7 +434,7 @@ input, button {
   color: rgb(40, 40, 40);
   font-size: 14px;
   font-weight: 500;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 .card {
   display: flex;
@@ -462,6 +464,9 @@ input, button {
 .gallery {
   margin-bottom: 5rem;
   padding: 0 1rem;
+}
+.gallery__title {
+  margin-bottom: 4rem;
 }
 .gallery__grid {
   display: grid;
@@ -542,6 +547,12 @@ input, button {
 /*=REVIEWS==========================================================================*/
 .reviews {
   margin-bottom: 5rem;
+}
+.reviews__title {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 25px;
+  margin-bottom: 4rem;
 }
 .reviews .content-swip {
   margin-left: auto;
@@ -670,6 +681,13 @@ input, button {
 }
 .footer__text li {
   margin-bottom: 8px;
+}
+.footer__text li a {
+  color: rgb(40, 40, 40);
+  transition: all 0.5s;
+}
+.footer__text li a:hover {
+  color: rgb(215, 174, 26);
 }
 .footer__cont li {
   margin-bottom: 8px;
@@ -1098,7 +1116,7 @@ span {
   display: flex;
   justify-content: center;
   margin-top: 200px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .pages__list {
   margin-left: 500px;
